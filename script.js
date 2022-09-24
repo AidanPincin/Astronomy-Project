@@ -137,6 +137,7 @@ class Renderer{
         ctx.font = '48px Arial'
         ctx.fillStyle = '#ffffff'
         ctx.fillText('Auriga',25,50)
+        ctx.fillText('By Aidan Pincin',25,100)
         this.drawConstillation()
         this.stars.forEach(s => s.draw())
         this.info.forEach(i => {
